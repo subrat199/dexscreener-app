@@ -1,0 +1,45 @@
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px; /* Add some padding to the sidebar */
+    border-radius: 0px 32px 32px 0px;
+background: #292929;
+width: 288px;
+height: 982px;
+flex-shrink: 0;
+gap:"20px";
+  /* Remove default margin and padding to fit the sidebar */
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style each sidebar item */
+  .sidebar-item {
+    margin-bottom: 20px; /* Add some spacing between sidebar items */
+    
+  }
+  
+  /* Style the heading of each sidebar item */
+  .sidebar-item h3 {
+    color:  #F7F9F9;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+    /* 140% */
+  }
+  
+  /* Style the address text of each sidebar item */
+  .sidebar-item p {
+    color:  #F7F9F9;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+  }
+}
